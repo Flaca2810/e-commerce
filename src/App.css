@@ -1,0 +1,58 @@
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+    text-decoration-style:none;
+
+}
+
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid black;
+    justify-content: space-around;
+}
+
+
+.card{
+    width: 32%;
+    border: 2px solid black ;
+    border-radius:3%;
+    margin:10px 0px;
+    background-color:rgba(8, 43, 107, 0.527);
+}
+
+
+.total {
+border : 1px solid #666;
+color: rgb(7, 29, 90);
+background-color:white;
+font-size: 1.4rem;
+
+} 
+
+body{
+    background-color:rgb(247, 233, 216);
+}
+
+#root {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+.paragraphInAbout{
+  font-size: 15px;
+
+    
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    left:0px
+}
